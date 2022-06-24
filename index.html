@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="" class="calculator">
+
+            <input type="text" id="display" readonly value="">
+            
+            <button class="clear" type="button" onclick="reset()"><i>C</i></button>
+            <button type="button" value="/" onclick="addToCalculator(value)"><i>/</i></button>
+            <button type="button" value="*" onclick="addToCalculator(value)"><i>*</i></button>
+            <button type="button" value="7" onclick="addToCalculator(value)"><i>7</i></button>
+            <button type="button" value="8" onclick="addToCalculator(value)"><i>8</i></button>
+            <button type="button" value="9" onclick="addToCalculator(value)"><i>9</i></button>
+            <button type="button" value="-" onclick="addToCalculator(value)"><i>-</i></button>
+            <button type="button" value="4" onclick="addToCalculator(value)"><i>4</i></button>
+            <button type="button" value="5" onclick="addToCalculator(value)"><i>5</i></button>
+            <button type="button" value="6" onclick="addToCalculator(value)"><i>6</i></button>
+            <button class="plus" type="button" value="+" onclick="addToCalculator(value)"><i>+</i></button>
+            <button type="button" value="1" onclick="addToCalculator(value)"><i>1</i></button>
+            <button type="button" value="2" onclick="addToCalculator(value)"><i>2</i></button>
+            <button type="button" value="3" onclick="addToCalculator(value)"><i>3</i></button>
+            <button type="button" value="." onclick="addToCalculator(value)"><i>.</i></button>
+            <button type="button" value="0" onclick="addToCalculator(value)"><i>0</i></button>
+            <button type="button" value="00" onclick="addToCalculator(value)"><i>00</i></button>
+            <button class="equal" type="button" value="=" onclick="finilize()"><i>=</i></button>
+
+        </form>
+
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
